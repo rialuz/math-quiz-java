@@ -18,7 +18,7 @@ public class MathGame {
         if(userAnswer == correctAnswer) {
             System.out.println("Congrats. You got the answer correct!");
             score += 1;
-            System.out.println("You're score is now " + score);
+            System.out.println("Your score is now " + score);
         } else {
             System.out.println("Unfortunately, that is the wrong answer.");
             System.out.println("The correct answer is: " + correctAnswer);
